@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="asset/logo.svg" alt="Logo" />
+        <span>CrazyDevs</span>
+      </div>
+
+      <button id="menu-toggle" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h2>We Build Future Ready Websites</h2>
+        <p>We bring our boldest ideas to life with unmatched creativity and professionalism, delivering responsive, user friendly websites that elevate your business and strengthen your brand's online presence.</p>
+        <a href="#" class="cta-button">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img src="asset/hero section.png" alt="Website Development" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 CrazyDevs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+
+    toggleBtn.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+      toggleBtn.classList.toggle('active');
+    });
+  </script>
+
 </body>
 </html>
