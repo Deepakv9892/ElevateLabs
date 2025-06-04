@@ -17,7 +17,7 @@ function addTask(text) {
   taskSpan.textContent = text;
 
   const removeBtn = document.createElement('button');
-  removeBtn.textContent = 'Remove';
+  removeBtn.textContent = 'X';
   removeBtn.classList.add('remove-btn');
 
   taskSpan.addEventListener('click', () => {
