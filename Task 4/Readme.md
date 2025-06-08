@@ -4,7 +4,7 @@ This project updates an existing landing page for **CrazyDevs** to be fully resp
 
 ## 🌐 Live Link
 
-🔗 [View Live Project](https://stellar-gecko-9e3fdf.netlify.app/)
+🔗 [View Live Project](https://resilient-dolphin-2b7783.netlify.app/)
 
 ## ✅ Features
 
@@ -27,13 +27,6 @@ task-4-responsive/
 - CSS3 (Flexbox, Media Queries)
 - Google Fonts (Poppins)
 
-## 📏 Media Queries Used
-
-```css
-@media (max-width: 1024px) { ... }
-@media (max-width: 768px) { ... }
-@media (max-width: 480px) { ... }
-
 # 📸 Screenshots
 
 ![Desktop View](screenshots/desktop.png)
@@ -47,3 +40,10 @@ Resize window or open DevTools to test responsiveness.
 
 ## 👨‍💻 Author
 Designed and coded by CrazyDevs
+
+## 📏 Media Queries Used
+
+```css
+@media (max-width: 1024px) { ... }
+@media (max-width: 768px) { ... }
+@media (max-width: 480px) { ... }
