@@ -6,7 +6,7 @@ A modern, responsive **blog website** built using **Bootstrap 5** and **custom C
 
 ## 🔗 Live Preview
 
-[🚀 View Live Site (Optional Link)](https://phenomenal-gingersnap-3516bf.netlify.app/)
+[🚀 View Live Site](https://phenomenal-gingersnap-3516bf.netlify.app/)
 
 ---
 
